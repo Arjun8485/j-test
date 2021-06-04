@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/tailwind.css">
+    <title>Document</title>
+
+</head>
+<style>
+.sidenav {
+    height: 0;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    overflow-x: hidden;
+    transition: 0.4s;
+    text-align:center;
+}
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    display: block;
+}
+.sidenav .closebtn {
+    position: absolute;
+    top: 18px;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+.nav-link-color a {
+    background: -webkit-linear-gradient(#FFC000, #FF8A00);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.nav-button-bg {
+    background: linear-gradient(253.58deg, #FFC000 1.55%, #FF8A00 95.8%);
+    box-shadow: 0px 12px 35px rgba(160, 121, 0, 0.2);
+}
+</style>
+<body>
+    <nav>
+    </nav>
+
+    <div class="flex lg:flex-row flex-col" style="background: linear-gradient(253.58deg, #FFC000 1.55%, #FF8A00 95.8%);">
+        <div class="lg:w-6/12 w-full lg:py-28 lg:px-28 p-10 lg:text-4xl text-2xl">
+            <h1 class="text-white font-bold leading-relaxed" style="color: #FFF7DF;">Get Access to Unlimited Educational Resources. Everywhere, Everytime!</h1>
+            <p class="py-8 text-white text-sm font-light">premium access to more than 10,000 resources ranging from courses, events e.c. </p>
+            <button class="text-yellow-500 bg-white rounded-full py-4 px-14 text-lg hover:opacity-80">Get Access</button>
+        </div>
+        <div class="lg:w-6/12 w-full">
+            <img src="images/Isolated Image Icon.png" alt="" class="w-80 h-64">
+        </div>
+    </div>
+
+    <div class="bg-yellow-50 lg:pt-20 pt-10">
+        <div class="flex lg:flex-row flex-col lg:justify-evenly justify-center lg:mx-64 mx-4">
+            <div class="lg:w-3/12 lg:mx-0 mx-4 lg:my-0 my-8">
+                <img src="images/unlimited_acess.png" alt="" class="mx-auto h-24">
+                <br>
+                <h3 class="text-xl font-extrabold text-center text-gray-600">Unlimited Access</h3>
+                <br>
+                <p class="text-center text-gray-500">One subscription unlimited access</p>
+            </div>
+            <div class="lg:w-3/12 lg:mx-0 mx-4 lg:my-0 my-8">
+                <img src="images/expert_teachers.png" alt="" class="mx-auto h-24">
+                <br>
+                <h3 class="text-xl font-extrabold text-center text-gray-600">Expert teachers</h3>
+                <br>
+                <p class="text-center text-gray-500">Learn from industry experts who are passionate about teaching</p>
+            </div>
+            <div class="lg:w-3/12 lg:mx-0 mx-4 lg:my-0 my-8">
+                <img src="images/learn_anywhere.png" alt="" class="mx-auto h-24">
+                <br>
+                <h3 class="text-xl font-extrabold text-center text-gray-600">Learn anywhere</h3>
+                <br>
+                <p class="text-center text-gray-500">Switch between your computer, tablet, or mobile device.</p>
+            </div>
+        </div>
+        <div class="flex lg:mt-20 mt-10">
+            <div class="w-7/12 lg:block hidden">
+                <img src="images/about-us_element2.png" alt="">
+            </div>
+            <div class="lg:w-5/12 lg:mt-32 lg:ml-32 lg:mr-32 p-10">
+                <h3 class="lg:text-5xl text-4xl text-yellow-500 leading-relaxed">
+                    Learn A Skill.
+                    <br>
+                    Build Your Portfolio.
+                    <br>
+                    <span class="font-extrabold">Get Hired!</span>
+                </h3>
+                <br>
+                <br>
+                <p class="font-light">
+                    Semaj Africa is an online education platform that delivers video courses, programs and resources for Individual, Advertising & Media Specialist, Online Marketing Professionals, Freelancers and anyone looking to pursue a career in digital marketing, Accounting, Web development, Programming. Multimedia and CAD design.
+                </p>
+                <br><br>
+                <button class="nav-button-bg focus:outline-none px-12 py-4 text-white rounded-full hover:opacity-80">Discover</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="flex" style="background: linear-gradient(253.58deg, #FFC000 1.55%, #FF8A00 95.8%)">
+        <div class="lg:w-5/12 w-full lg:m-40 m-10">
+            <h3 class="lg:text-5xl text-3xl text-white font-bold">Success Stories <br> From Our Students <br> WorldWide!</h3>
+            <br><br>
+            <p class="text-white font-light">
+                Semaj Africa is an online education platform that delivers video courses, programs and resources for Individual, Advertising & Media Specialist, Online Marketing Professionals, Freelancers and anyone looking to pursue a career in digital marketing, Accounting, Web development, Programming. Multimedia and CAD design.
+            </p>
+            <br><br>
+            <button class="text-yellow-500 bg-white rounded-full py-4 px-14 text-lg hover:opacity-80">Discover</button>
+        </div>
+        <div class="lg:w-7/12 w-full lg:block hidden">
+            <img src="images/Media Placeholders.png" alt="">
+        </div>
+    </div>
+
+    <div class="lg:mt-20 m-10">
+        <h2 class="text-center">Courses</h2>
+        <br><br>
+        <ul class="flex lg:w-7/12 mx-auto lg:justify-around flex-wrap justify-around">
+            <li class="m-2">All</li>
+            <li class="m-2">Design</li>
+            <li class="m-2">Web development</li>
+            <li class="m-2">Digital</li>
+            <li class="m-2">Photography</li>
+            <li class="m-2">Motion graphics</li>
+            <li class="m-2">Digital marketing</li>
+        </ul>
+        <div class="grid lg:grid-cols-4 sm:grid-cols-2 grid-cols-1 lg:gap-5 gap-2 lg:mx-20 mx-4 text-white mt-8">
+            <div class="bg-gray-400 h-80">
+                    <span class="float-right bg-yellow-500 p-4">free</span>
+                <div class="h-14 bg-yellow-300">
+                    Become A Social <br> Media Expert
+                </div>
+            </div>
+            <div class="bg-gray-400 h-80">
+                    <span class="float-right bg-yellow-500 p-4">free</span>
+                <div class="h-14 bg-yellow-300">
+                    Become A Social <br> Media Expert
+                </div>
+            </div>
+            <div class="bg-gray-400 h-80">
+                    <span class="float-right bg-yellow-500 p-4">free</span>
+                <div class="h-14 bg-yellow-300">
+                    Become A Social <br> Media Expert
+                </div>
+            </div>
+            <div class="bg-gray-400 h-80">
+                    <span class="float-right bg-yellow-500 p-4">free</span>
+                <div class="h-14 bg-yellow-300">
+                    Become A Social <br> Media Expert
+                </div>
+            </div>
+            <div class="bg-gray-400 h-80">
+                    <span class="float-right bg-yellow-500 p-4">free</span>
+                <div class="h-14 bg-yellow-300">
+                    Become A Social <br> Media Expert
+                </div>
+            </div>
+            <div class="bg-gray-400 h-80">
+                    <span class="float-right bg-yellow-500 p-4">free</span>
+                <div class="h-14 bg-yellow-300">
+                    Become A Social <br> Media Expert
+                </div>
+            </div>
+        </div>
+        <div class="flex justify-center">
+            <button class="nav-button-bg focus:outline-none px-12 py-4 my-10 text-white rounded-full hover:opacity-80 ml-4">Discover</button>
+        </div>
+    </div>
+    
+    <div class="mt-10 text-white" style="background: linear-gradient(253.58deg, #FFC000 1.55%, #FF8A00 95.8%);">
+        <div class="flex lg:flex-row flex-col lg:justify-evenly justify-center lg:py-16 py-6">
+            <div class="lg:w-3/12 m-6">
+                <img src="images/Group 210.png" alt="" class="mx-auto">
+                <br>
+                <h1 class="text-center text-4xl font-extrabold">5,679</h1>
+                <br>
+                <p class="text-center font-light">Registered Students</p>
+            </div>
+            <div class="lg:w-3/12 m-6">
+                <img src="images/Group 209.png" alt="" class="mx-auto">
+                <br>
+                <h1 class="text-center text-4xl font-extrabold">2,679</h1>
+                <br>
+                <p class="text-center font-light">Student has been helped to achieve their dreams</p>
+            </div>
+            <div class="lg:w-3/12 m-6">
+                <img src="images/Group 209.png" alt="" class="mx-auto">
+                <br>
+                <h1 class="text-center text-4xl font-extrabold">10,000</h1>
+                <br>
+                <p class="text-center font-light">More than 10,000 people visits our site monthly</p>
+            </div>
+            <div class="lg:w-3/12 m-6">
+                <img src="images/Group 210.png" alt="" class="mx-auto">
+                <br>
+                <h1 class="text-center text-4xl font-extrabold">#10</h1>
+                <br>
+                <p class="text-center font-light">Ranked among the top 10 growing online learning startups in West Africa</p>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="components/nav.js"></script>
+</html>
